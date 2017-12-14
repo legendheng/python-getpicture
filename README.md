@@ -20,7 +20,7 @@ https://tieba.baidu.com/f?kw=%E9%A3%9F%E7%89%A9&ie=utf-8&pn=0
     使用chrome浏览器打开上面的资源链接网页，使用查看元素功能分析。发现每张图片都有class="thumbnail vpic_wrap"这个属性
     进而可以是使用正则表达式根据这个属性来匹配
 ### 第二步、分析分页结构
-  * 通过点击不同页面观察url可以得到，一共有54页，最基本的url为https://tieba.baidu.com/f?kw=%E9%A3%9F%E7%89%A9&ie=utf-8&pn=
+  * 通过点击不同页面观察url可以得到，一共有54页，最基本的url为https://tieba.baidu.com/f?kw=%E9%A3%9F%E7%89%A9&ie=utf-8&pn= 
   * 然后改变页数的是pn=?，这个值从0到2650，这个可以用range来改变
 ### 第三步、获取网页内容
     使用requests的get方法获取内容全部信息
